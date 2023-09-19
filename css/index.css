@@ -58,7 +58,7 @@
   color: whitesmoke;
 }
 
-.direction-buttons li:active {
+.direction-buttons li:hover {
   background-color: #313536;
 }
 
