@@ -157,13 +157,12 @@ h3 {
   border: 2px solid rgb(20, 6, 6);
   border-radius: 5px;
   padding: 2%;
+  list-style: none;
 }
-
 
 #skills {
   list-style: none;
   padding-top: 350px;
-  
 }
 
 #skills ul {
@@ -302,20 +301,20 @@ label {
   padding: 2%;
 }
 
-.messages-child ul{
+.messages-child ul {
   list-style: none;
 }
 
 #messages h2 {
   margin: 0;
 }
-.delete-button{
-  margin-left: 10px; 
+.delete-button {
+  margin-left: 10px;
 }
-.delete-button:hover{
+.delete-button:hover {
   background-color: rgb(156, 50, 50);
 }
-.delete-button:active{
+.delete-button:active {
   background-color: red;
 }
 
@@ -339,11 +338,11 @@ label {
   }
 
   .direction-buttons li {
-    display: block; 
-    margin-bottom: 10px; 
+    display: block;
+    margin-bottom: 10px;
   }
 
-  .direction-buttons li:active{
+  .direction-buttons li:active {
     background-color: #6f8a96;
   }
 }
@@ -363,7 +362,7 @@ label {
     margin: 0;
   }
 
-  .direction-buttons li{
+  .direction-buttons li {
     font-size: 10px;
   }
 
@@ -384,21 +383,19 @@ label {
   .xp-item {
     padding: 2%;
     list-style: none;
-    
   }
 
   .xp-item p {
     margin-left: 0;
   }
   .xp-item li {
-     border: 2px solid rgb(20, 6, 6);
-  border-radius: 5px;
-  padding: 2%;
-      text-align: left;
-      padding-left: 20px; 
-      margin-bottom: 8px; 
+    border: 2px solid rgb(20, 6, 6);
+    border-radius: 5px;
+    padding: 2%;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 8px;
   }
-  
 
   #skills {
     display: flex;
@@ -422,7 +419,6 @@ label {
   .leave_message fieldset {
     justify-content: center;
   }
-
 
   #footer {
     margin: 5%;
