@@ -95,7 +95,7 @@
   /* background-color: #006994; */
   color: rgb(0, 0, 0);
   font-family: "Caveat";
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 1px;
 }
 
@@ -526,5 +526,29 @@ label {
 
   .connect-images {
     text-align: center;
+  }
+}
+
+/* View style for screens above 2500px */
+@media screen and (min-width: 2500px) {
+  .iframe{
+    font-size: calc(45px + 0.5vw);
+  }
+  h1{
+    font-size: calc(60px + 0.5vw);
+  } h2, h3{
+    font-size: calc(45px + 0.5vw);
+  }
+  .body {
+    font-size: calc(35px + 0.5vw);
+  }
+  label{
+    font-size: calc(35px + 0.5vw);
+  }
+  button{
+    font-size: calc(15px + 0.5vw);
+  }
+  input, textarea{
+    font-size: calc(15px + 0.5vw);
   }
 }
