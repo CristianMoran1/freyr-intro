@@ -529,26 +529,21 @@ label {
   }
 }
 
-/* View style for screens above 2500px */
 @media screen and (min-width: 2500px) {
-  .iframe{
+  .iframe {
     font-size: calc(45px + 0.5vw);
   }
-  h1{
+  h1, h2, h3 {
     font-size: calc(60px + 0.5vw);
-  } h2, h3{
-    font-size: calc(45px + 0.5vw);
   }
-  .body {
+  .body, label, button, input, textarea {
     font-size: calc(35px + 0.5vw);
   }
-  label{
-    font-size: calc(35px + 0.5vw);
-  }
-  button{
-    font-size: calc(15px + 0.5vw);
-  }
-  input, textarea{
-    font-size: calc(15px + 0.5vw);
+}
+
+/* Maximum font size for very large screens */
+@media screen and (min-width: 5000px) {
+  .iframe, h1, h2, h3, .body, label, button, input, textarea {
+    font-size: 100px;
   }
 }
